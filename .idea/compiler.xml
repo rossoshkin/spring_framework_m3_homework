@@ -7,14 +7,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring_framework_m3_homework" />
+        <module name="MyBookShopApp" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="MyBookShopApp" target="1.8" />
       <module name="spring_framework_m3_homework" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="MyBookShopApp" options="-parameters" />
       <module name="spring_framework_m3_homework" options="-parameters" />
     </option>
   </component>
