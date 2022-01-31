@@ -2,7 +2,8 @@ package com.example.MyBookShopApp.data;
 
 public class Author {
     private Integer id;
-    private String authorName;
+    private String firstName;
+    private String lastName;
 
     public Integer getId() {
         return id;
@@ -12,19 +13,28 @@ public class Author {
         this.id = id;
     }
 
-    public String getAuthorName() {
-        return authorName;
+    public String getFirstName() {
+        return firstName;
     }
 
-    public void setAuthorName(String authorName) {
-        this.authorName = authorName;
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 
     @Override
     public String toString() {
         return "Author{" +
                 "id=" + id +
-                ", authorName='" + authorName + '\'' +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
                 '}';
     }
 }
