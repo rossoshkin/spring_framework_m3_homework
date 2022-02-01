@@ -4,10 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56a790fc-dfce-4747-a5ed-18150b05f7fb" name="Changes" comment="4.4 thymeleaf standard dialect syntax">
+    <list default="true" id="56a790fc-dfce-4747-a5ed-18150b05f7fb" name="Changes" comment="made it work again">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-frontend/fragments/footer_fragment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-frontend/fragments/header_fragment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/Services/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/Services/BookService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/data/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/data/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-frontend/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-frontend/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-frontend/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-frontend/authors/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-frontend/authors/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-frontend/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,13 +26,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="4.3_thymeleaf_standard_dialect_syntax" />
+        <entry key="$PROJECT_DIR$" value="4.4_standard_dialect_cycles_conditions" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,6 +64,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -65,7 +75,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -75,6 +85,13 @@
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.MyBookShopAppApplication">
@@ -115,6 +132,7 @@
       <updated>1642323812325</updated>
       <workItem from="1642323813925" duration="4811000" />
       <workItem from="1643646012976" duration="4548000" />
+      <workItem from="1643721909113" duration="1277000" />
     </task>
     <task id="LOCAL-00001" summary="3.7 spring boot development homework">
       <created>1642324225054</created>
@@ -151,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643646614871</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="made it work again">
+      <created>1643719803566</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1643719803566</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,10 +194,14 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/src/main/resources/spring-frontend" />
+    </ignored-roots>
     <MESSAGE value="3.7 spring boot development homework" />
     <MESSAGE value="4.2 custom placeholder name from controller model property" />
     <MESSAGE value="4.3 thymeleaf standard dialect syntax" />
     <MESSAGE value="4.4 thymeleaf standard dialect syntax" />
-    <option name="LAST_COMMIT_MESSAGE" value="4.4 thymeleaf standard dialect syntax" />
+    <MESSAGE value="made it work again" />
+    <option name="LAST_COMMIT_MESSAGE" value="made it work again" />
   </component>
 </project>
