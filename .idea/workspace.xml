@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56a790fc-dfce-4747-a5ed-18150b05f7fb" name="Changes" comment="Merge remote-tracking branch 'origin/m3_homework' into 4.5_thymeleaf_template_layout&#10;&#10;# Conflicts:&#10;#&#9;.idea/vcs.xml&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/main/java/com/example/MyBookShopApp/Services/AuthorService.java&#10;#&#9;src/main/java/com/example/MyBookShopApp/Services/BookService.java&#10;#&#9;src/main/java/com/example/MyBookShopApp/controllers/AuthorsController.java&#10;#&#9;src/main/java/com/example/MyBookShopApp/controllers/MainPageController.java">
+    <list default="true" id="56a790fc-dfce-4747-a5ed-18150b05f7fb" name="Changes" comment="restored localization functionality">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/controllers/PopularController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/controllers/RecentController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-frontend/fragments/footer_fragment.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-frontend/fragments/footer_fragment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/controllers/AuthorsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/controllers/AuthorsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/controllers/GenresController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/controllers/GenresController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-frontend/books/popular.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-frontend/books/popular.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-frontend/books/recent.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-frontend/books/recent.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/spring-frontend/fragments/header_fragment.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-frontend/fragments/header_fragment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-frontend/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-frontend/genres/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-frontend/genres/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -68,7 +73,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -127,7 +132,8 @@
       <workItem from="1643646012976" duration="4548000" />
       <workItem from="1643721909113" duration="1277000" />
       <workItem from="1644840083411" duration="306000" />
-      <workItem from="1644840855410" duration="658000" />
+      <workItem from="1644840855410" duration="809000" />
+      <workItem from="1644933116031" duration="1636000" />
     </task>
     <task id="LOCAL-00001" summary="3.7 spring boot development homework">
       <created>1642324225054</created>
@@ -171,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643719803566</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="restored localization functionality">
+      <created>1644841542947</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1644841542947</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +210,11 @@
     <MESSAGE value="4.3 thymeleaf standard dialect syntax" />
     <MESSAGE value="4.4 thymeleaf standard dialect syntax" />
     <MESSAGE value="made it work again" />
-    <option name="LAST_COMMIT_MESSAGE" value="made it work again" />
+    <MESSAGE value="restored localization functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="restored localization functionality" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
