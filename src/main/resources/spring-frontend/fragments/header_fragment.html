@@ -38,10 +38,10 @@
         <div class="wrap">
             <nav class="menuModal" id="navigate">
                 <ul class="menu menu_main">
-                    <li class="menu-item" th:classappend="${#request.requestURI == '' ? 'active':''}"><a class="menu-link" href="index.html"
+                    <li class="menu-item"><a class="menu-link" href="index.html"
                                                               th:text="#{topbar.main}" th:href="@{/}">Главная</a>
                     </li>
-                    <li class="menu-item" th:classappend="${#request.requestURI == '/genres' ? 'active':''}"><a class="menu-link" href="genres.html"
+                    <li class="menu-item"><a class="menu-link" href="genres.html"
                                              th:text="#{topbar.genres}" th:href="@{/genres}">Жанры</a>
                     </li>
                     <li class="menu-item"><a class="menu-link" href="nove.html"

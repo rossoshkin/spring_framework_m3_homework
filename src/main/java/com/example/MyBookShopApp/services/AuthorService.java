@@ -1,11 +1,9 @@
-package com.example.MyBookShopApp.Services;
+package com.example.MyBookShopApp.services;
 
 import com.example.MyBookShopApp.data.Author;
-import com.example.MyBookShopApp.data.Book;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.ModelAttribute;
 
 import java.sql.ResultSet;
 import java.util.ArrayList;

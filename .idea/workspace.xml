@@ -4,16 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56a790fc-dfce-4747-a5ed-18150b05f7fb" name="Changes" comment="restored localization functionality">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/controllers/PopularController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/controllers/RecentController.java" afterDir="false" />
+    <list default="true" id="56a790fc-dfce-4747-a5ed-18150b05f7fb" name="Changes" comment="added recent and popular pages">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/controllers/AboutController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/controllers/ContactsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/controllers/DocumentsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/controllers/FaqController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/controllers/SigninController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/Services/AuthorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/services/AuthorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/Services/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/services/BookService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/controllers/AuthorsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/controllers/AuthorsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/controllers/GenresController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/controllers/GenresController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-frontend/books/popular.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-frontend/books/popular.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-frontend/books/recent.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-frontend/books/recent.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/controllers/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/controllers/MainPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-frontend/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-frontend/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-frontend/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-frontend/contacts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-frontend/documents/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-frontend/documents/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-frontend/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-frontend/faq.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-frontend/fragments/footer_fragment.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-frontend/fragments/footer_fragment.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/spring-frontend/fragments/header_fragment.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-frontend/fragments/header_fragment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-frontend/genres/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-frontend/genres/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-frontend/signin.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-frontend/signin.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +141,8 @@
       <workItem from="1643721909113" duration="1277000" />
       <workItem from="1644840083411" duration="306000" />
       <workItem from="1644840855410" duration="809000" />
-      <workItem from="1644933116031" duration="1636000" />
+      <workItem from="1644933116031" duration="2699000" />
+      <workItem from="1644936679490" duration="1000000" />
     </task>
     <task id="LOCAL-00001" summary="3.7 spring boot development homework">
       <created>1642324225054</created>
@@ -184,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644841542947</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added recent and popular pages">
+      <created>1644934777366</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1644934777366</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,7 +227,8 @@
     <MESSAGE value="4.4 thymeleaf standard dialect syntax" />
     <MESSAGE value="made it work again" />
     <MESSAGE value="restored localization functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="restored localization functionality" />
+    <MESSAGE value="added recent and popular pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="added recent and popular pages" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
