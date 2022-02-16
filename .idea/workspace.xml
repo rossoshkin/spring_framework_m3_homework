@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56a790fc-dfce-4747-a5ed-18150b05f7fb" name="Changes" comment="added all needed pages for module 4 homework">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/controllers/CartController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/controllers/PostponedController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/controllers/SearchController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-frontend/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-frontend/cart.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/spring-frontend/fragments/header_fragment.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-frontend/fragments/header_fragment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-frontend/postponed.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-frontend/postponed.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-frontend/search/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-frontend/search/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +130,7 @@
       <workItem from="1644840855410" duration="809000" />
       <workItem from="1644933116031" duration="2699000" />
       <workItem from="1644936679490" duration="1111000" />
-      <workItem from="1645000916355" duration="458000" />
+      <workItem from="1645000916355" duration="966000" />
     </task>
     <task id="LOCAL-00001" summary="3.7 spring boot development homework">
       <created>1642324225054</created>
@@ -197,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644937780735</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added all needed pages for module 4 homework">
+      <created>1645001391026</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1645001391026</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
