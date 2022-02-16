@@ -4,13 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56a790fc-dfce-4747-a5ed-18150b05f7fb" name="Changes" comment="Localized header and footer">
+    <list default="true" id="56a790fc-dfce-4747-a5ed-18150b05f7fb" name="Changes" comment="Localized main page">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/controllers/SignupController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/lang/messages_en.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/lang/messages_en.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/lang/messages_ru.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/lang/messages_ru.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-frontend/fragments/footer_fragment.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-frontend/fragments/footer_fragment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-frontend/fragments/header_fragment.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-frontend/fragments/header_fragment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-frontend/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-frontend/authors/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-frontend/authors/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-frontend/books/popular.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-frontend/books/popular.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-frontend/books/recent.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-frontend/books/recent.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-frontend/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-frontend/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-frontend/genres/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-frontend/genres/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-frontend/postponed.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-frontend/postponed.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-frontend/signin.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-frontend/signin.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645028181542</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Localized main page">
+      <created>1645028684750</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1645028684750</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,7 +253,8 @@
     <MESSAGE value="added recent and popular pages" />
     <MESSAGE value="added all needed pages for module 4 homework" />
     <MESSAGE value="Localized header and footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Localized header and footer" />
+    <MESSAGE value="Localized main page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Localized main page" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
