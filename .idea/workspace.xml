@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56a790fc-dfce-4747-a5ed-18150b05f7fb" name="Changes" comment="Added headPageFragment for head tag">
+    <list default="true" id="56a790fc-dfce-4747-a5ed-18150b05f7fb" name="Changes" comment="removed unnecessary autowired annotation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/controllers/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/controllers/MainPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-frontend/fragments/footer_fragment.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-frontend/fragments/footer_fragment.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -276,7 +276,8 @@
     <MESSAGE value="Localized main page" />
     <MESSAGE value="Localization in progress" />
     <MESSAGE value="Added headPageFragment for head tag" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added headPageFragment for head tag" />
+    <MESSAGE value="removed unnecessary autowired annotation" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed unnecessary autowired annotation" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
