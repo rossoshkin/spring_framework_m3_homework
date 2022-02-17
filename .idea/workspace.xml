@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56a790fc-dfce-4747-a5ed-18150b05f7fb" name="Changes" comment="Localization in progress">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-frontend/fragments/books_pool_fragment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-frontend/fragments/head_page_fragment.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/controllers/RecentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/controllers/RecentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/services/AuthorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/services/AuthorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/services/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/services/BookService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/lang/messages_en.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/lang/messages_en.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/lang/messages_ru.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/lang/messages_ru.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-frontend/books/recent.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-frontend/books/recent.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-frontend/search/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-frontend/search/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-frontend/documents/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-frontend/documents/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +132,7 @@
       <workItem from="1644933116031" duration="2699000" />
       <workItem from="1644936679490" duration="1111000" />
       <workItem from="1645000916355" duration="966000" />
-      <workItem from="1645076866059" duration="2462000" />
+      <workItem from="1645076866059" duration="3178000" />
     </task>
     <task id="LOCAL-00001" summary="3.7 spring boot development homework">
       <created>1642324225054</created>
@@ -236,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645077563922</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Localization in progress">
+      <created>1645079346147</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1645079346147</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
