@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56a790fc-dfce-4747-a5ed-18150b05f7fb" name="Changes" comment="Localization in progress">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-frontend/fragments/head_page_fragment.html" afterDir="false" />
+    <list default="true" id="56a790fc-dfce-4747-a5ed-18150b05f7fb" name="Changes" comment="Added headPageFragment for head tag">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/lang/messages_en.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/lang/messages_en.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/lang/messages_ru.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/lang/messages_ru.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-frontend/documents/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-frontend/documents/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/controllers/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/controllers/MainPageController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="4.4_standard_dialect_cycles_conditions" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -132,7 +129,7 @@
       <workItem from="1644933116031" duration="2699000" />
       <workItem from="1644936679490" duration="1111000" />
       <workItem from="1645000916355" duration="966000" />
-      <workItem from="1645076866059" duration="3178000" />
+      <workItem from="1645076866059" duration="3584000" />
     </task>
     <task id="LOCAL-00001" summary="3.7 spring boot development homework">
       <created>1642324225054</created>
@@ -239,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645079346147</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Added headPageFragment for head tag">
+      <created>1645080092380</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1645080092380</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,7 +275,8 @@
     <MESSAGE value="Localized header and footer" />
     <MESSAGE value="Localized main page" />
     <MESSAGE value="Localization in progress" />
-    <option name="LAST_COMMIT_MESSAGE" value="Localization in progress" />
+    <MESSAGE value="Added headPageFragment for head tag" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added headPageFragment for head tag" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
