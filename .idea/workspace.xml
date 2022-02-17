@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56a790fc-dfce-4747-a5ed-18150b05f7fb" name="Changes" comment="Localization in progress">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-frontend/fragments/head_page_fragment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/lang/messages_en.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/lang/messages_en.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/lang/messages_ru.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/lang/messages_ru.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-frontend/documents/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-frontend/documents/index.html" afterDir="false" />
+    <list default="true" id="56a790fc-dfce-4747-a5ed-18150b05f7fb" name="Changes" comment="added head page fragment">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/controllers/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/controllers/MainPageController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -271,7 +267,8 @@
     <MESSAGE value="Localized header and footer" />
     <MESSAGE value="Localized main page" />
     <MESSAGE value="Localization in progress" />
-    <option name="LAST_COMMIT_MESSAGE" value="Localization in progress" />
+    <MESSAGE value="added head page fragment" />
+    <option name="LAST_COMMIT_MESSAGE" value="added head page fragment" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
