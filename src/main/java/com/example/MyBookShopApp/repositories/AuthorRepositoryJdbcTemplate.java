@@ -21,7 +21,7 @@ public class AuthorRepositoryJdbcTemplate implements AuthorRepository{
     public List<Author> getAllAuthors() {
         List<Author> authors = jdbcTemplate.query("SELECT * from authors", (ResultSet rs, int rowNum) -> {
             Author author = new Author();
-            author.setId(rs.getInt("author_id"));
+            author.setAuthor_id(rs.getInt("author_id"));
             author.setFirstName(rs.getString("first_name"));
             author.setLastName(rs.getString("last_name"));
             return author;

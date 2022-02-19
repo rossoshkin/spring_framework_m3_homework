@@ -20,7 +20,7 @@ public class BookRepositoryJdbcTemplate implements BookRepository{
     public List<Book> getAllBooks() {
 
         String sql = "SELECT books.id, authors.first_name, authors.last_name, " +
-                "books.title, books.priceOld, books.price FROM books, authors WHERE authors.author_id = books.author_id";
+                "books.title, books.price_old, books.price FROM books, authors WHERE authors.author_id = books.author_id";
 
         List<Book> books = jdbcTemplate.query(sql, new BookRowMapper());
         return books;

@@ -1,10 +1,30 @@
 package com.example.MyBookShopApp.data;
 
-public class Book {
+import javax.persistence.*;
+import java.io.Serializable;
+
+@Entity
+@Table(name = "books")
+public class Book implements Serializable {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+
+    @ManyToOne
+    @JoinColumn(name = "author_id", nullable = false)
+    private Author author;
+
+    public Author getAuthor() {
+        return author;
+    }
+
+    public void setAuthor(Author author) {
+        this.author = author;
+    }
 
     private Integer id;
-    private String authorFirstName;
-    private String authorLastName;
+    private String firstName;
+    private String lastName;
     private String title;
     private String priceOld;
     private String price;
@@ -17,20 +37,20 @@ public class Book {
         this.id = id;
     }
 
-    public String getAuthorFirstName() {
-        return authorFirstName;
+    public String getFirstName() {
+        return firstName;
     }
 
-    public void setAuthorFirstName(String authorFirstName) {
-        this.authorFirstName = authorFirstName;
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
     }
 
-    public String getAuthorLastName() {
-        return authorLastName;
+    public String getLastName() {
+        return lastName;
     }
 
-    public void setAuthorLastName(String authorLastName) {
-        this.authorLastName = authorLastName;
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 
     public String getTitle() {
@@ -57,15 +77,4 @@ public class Book {
         this.price = price;
     }
 
-    @Override
-    public String toString() {
-        return "Book{" +
-                "id=" + id +
-                ", first_name='" + authorFirstName + '\'' +
-                ", last_name='" + authorLastName + '\'' +
-                ", title='" + title + '\'' +
-                ", priceOld='" + priceOld + '\'' +
-                ", price='" + price + '\'' +
-                '}';
-    }
 }
