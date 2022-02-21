@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56a790fc-dfce-4747-a5ed-18150b05f7fb" name="Changes" comment="5.2 lesson - hibernate jpa">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/config/CommandLineRunnerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/data/TestEntity.java" afterDir="false" />
+    <list default="true" id="56a790fc-dfce-4747-a5ed-18150b05f7fb" name="Changes" comment="5.3 lesson - hibernate">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/data/AbstractHibernateDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/data/TestEntityDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyBookShopApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MyBookShopApp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/config/CommandLineRunnerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/config/CommandLineRunnerImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -136,6 +135,8 @@
       <workItem from="1645076866059" duration="3584000" />
       <workItem from="1645271658450" duration="6641000" />
       <workItem from="1645363737128" duration="2810000" />
+      <workItem from="1645381266436" duration="184000" />
+      <workItem from="1645422360839" duration="1344000" />
     </task>
     <task id="LOCAL-00001" summary="3.7 spring boot development homework">
       <created>1642324225054</created>
@@ -291,7 +292,8 @@
     <MESSAGE value="Added headPageFragment for head tag" />
     <MESSAGE value="removed unnecessary autowired annotation" />
     <MESSAGE value="switched from h2 to postgres" />
-    <option name="LAST_COMMIT_MESSAGE" value="switched from h2 to postgres" />
+    <MESSAGE value="5.3 lesson - hibernate" />
+    <option name="LAST_COMMIT_MESSAGE" value="5.3 lesson - hibernate" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

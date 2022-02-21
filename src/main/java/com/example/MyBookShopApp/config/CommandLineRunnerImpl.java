@@ -1,6 +1,7 @@
 package com.example.MyBookShopApp.config;
 
 import com.example.MyBookShopApp.data.TestEntity;
+import com.example.MyBookShopApp.data.TestEntityDao;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
@@ -14,9 +15,11 @@ import java.util.logging.Logger;
 public class CommandLineRunnerImpl implements CommandLineRunner {
 
     EntityManagerFactory entityManagerFactory;
+    TestEntityDao testEntityDao;
 
-    public CommandLineRunnerImpl(EntityManagerFactory entityManagerFactory) {
+    public CommandLineRunnerImpl(EntityManagerFactory entityManagerFactory, TestEntityDao testEntityDao) {
         this.entityManagerFactory = entityManagerFactory;
+        this.testEntityDao = testEntityDao;
     }
 
     @Override
@@ -25,7 +28,7 @@ public class CommandLineRunnerImpl implements CommandLineRunner {
             createTestEntity(new TestEntity());
         }
 
-        TestEntity readTestEntity = readTestEntityById(3L);
+        TestEntity readTestEntity = testEntityDao.findOne(3L);
         if (readTestEntity != null) {
             Logger.getLogger(CommandLineRunnerImpl.class.getSimpleName()).info("read " + readTestEntity.toString());
         }
