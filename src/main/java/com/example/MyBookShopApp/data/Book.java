@@ -9,9 +9,10 @@ public class Book implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Integer id;
 
     @ManyToOne
-    @JoinColumn(name = "author_id", nullable = false)
+    @JoinColumn(name = "author_id", referencedColumnName = "author_id")
     private Author author;
 
     public Author getAuthor() {
@@ -22,9 +23,7 @@ public class Book implements Serializable {
         this.author = author;
     }
 
-    private Integer id;
-    private String firstName;
-    private String lastName;
+
     private String title;
     private String priceOld;
     private String price;
@@ -35,22 +34,6 @@ public class Book implements Serializable {
 
     public void setId(Integer id) {
         this.id = id;
-    }
-
-    public String getFirstName() {
-        return firstName;
-    }
-
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
-
-    public String getLastName() {
-        return lastName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
     }
 
     public String getTitle() {
@@ -77,4 +60,14 @@ public class Book implements Serializable {
         this.price = price;
     }
 
+    @Override
+    public String toString() {
+        return "Book{" +
+                "id=" + id +
+                ", author=" + author +
+                ", title='" + title + '\'' +
+                ", priceOld='" + priceOld + '\'' +
+                ", price='" + price + '\'' +
+                '}';
+    }
 }

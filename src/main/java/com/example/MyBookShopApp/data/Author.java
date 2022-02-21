@@ -17,8 +17,7 @@ public class Author {
     private String firstName;
     private String lastName;
 
-    @OneToMany
-    @JoinColumn(name = "author_id")
+    @OneToMany(mappedBy = "author")
     private List<Book> books = new ArrayList<>();
 
     public List<Book> getBooks() {

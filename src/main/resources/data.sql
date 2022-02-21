@@ -16,7 +16,7 @@ insert into authors (author_id, first_name, last_name) values (15, 'Timmie', 'Ad
 insert into authors (author_id, first_name, last_name) values (16, 'Fernando', 'Neads');
 insert into authors (author_id, first_name, last_name) values (17, 'Teddy', 'Guilliland');
 insert into authors (author_id, first_name, last_name) values (18, 'Paloma', 'Grebert');
-insert into authors (author_id, first_name, last_name) values (19, 'Kristos', 'Usher');
+insert into authors (author_id, first_name, last_name) values (19, 'Timmie', 'Usher');
 insert into authors (author_id, first_name, last_name) values (20, 'Darcey', 'Rohmer');
 insert into authors (author_id, first_name, last_name) values (21, 'Cristie', 'Isacsson');
 insert into authors (author_id, first_name, last_name) values (22, 'Lindsay', 'Coutthart');

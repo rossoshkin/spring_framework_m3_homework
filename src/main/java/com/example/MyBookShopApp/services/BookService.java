@@ -16,11 +16,12 @@ public class BookService {
 
     private BookRepository bookRepository;
 
+    @Autowired
     public BookService(BookRepository bookRepository) {
         this.bookRepository = bookRepository;
     }
 
     public List<Book> getBooksData() {
-        return bookRepository.getAllBooks();
+        return bookRepository.findAll();
     }
 }

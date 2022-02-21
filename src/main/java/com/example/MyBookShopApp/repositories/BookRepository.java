@@ -1,9 +1,15 @@
 package com.example.MyBookShopApp.repositories;
 
 import com.example.MyBookShopApp.data.Book;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
 
 import java.util.List;
 
-public interface BookRepository {
-    List<Book> getAllBooks();
+public interface BookRepository extends JpaRepository<Book, Integer> {
+
+    List<Book> findBookByAuthor_FirstName(String name);
+
+    @Query("from Book")
+    List<Book> customFindAllBooks();
 }

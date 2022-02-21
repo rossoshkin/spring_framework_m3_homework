@@ -2,23 +2,21 @@ package com.example.MyBookShopApp.config;
 
 import com.example.MyBookShopApp.data.TestEntity;
 import com.example.MyBookShopApp.data.TestEntityCrudRepository;
-import com.example.MyBookShopApp.data.TestEntityDao;
-import org.hibernate.HibernateException;
-import org.hibernate.Session;
-import org.hibernate.Transaction;
+import com.example.MyBookShopApp.repositories.BookRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Configuration;
 
-import javax.persistence.EntityManagerFactory;
 import java.util.logging.Logger;
 
 @Configuration
 public class CommandLineRunnerImpl implements CommandLineRunner {
 
     TestEntityCrudRepository testEntityCrudRepository;
+    BookRepository bookRepository;
 
-    public CommandLineRunnerImpl(TestEntityCrudRepository testEntityCrudRepository) {
+    public CommandLineRunnerImpl(TestEntityCrudRepository testEntityCrudRepository, BookRepository bookRepository) {
         this.testEntityCrudRepository = testEntityCrudRepository;
+        this.bookRepository = bookRepository;
     }
 
     @Override
@@ -38,6 +36,9 @@ public class CommandLineRunnerImpl implements CommandLineRunner {
         }
 
         deleteTestEntityById(4L);
+
+        Logger.getLogger(BookRepository.class.getSimpleName()).info(bookRepository.findBookByAuthor_FirstName("Timmie").toString());
+        Logger.getLogger(BookRepository.class.getSimpleName()).info(bookRepository.customFindAllBooks().toString());
     }
 
     private void deleteTestEntityById(Long id) {
