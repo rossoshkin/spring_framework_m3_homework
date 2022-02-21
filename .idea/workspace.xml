@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56a790fc-dfce-4747-a5ed-18150b05f7fb" name="Changes" comment="5.3 lesson - hibernate">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/data/AbstractHibernateDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/data/TestEntityDao.java" afterDir="false" />
+    <list default="true" id="56a790fc-dfce-4747-a5ed-18150b05f7fb" name="Changes" comment="5.4 dao example without spring data jpa">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/data/TestEntityCrudRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/config/CommandLineRunnerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/config/CommandLineRunnerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +19,7 @@
       <list>
         <option value="HTML File" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -136,7 +135,7 @@
       <workItem from="1645271658450" duration="6641000" />
       <workItem from="1645363737128" duration="2810000" />
       <workItem from="1645381266436" duration="184000" />
-      <workItem from="1645422360839" duration="1344000" />
+      <workItem from="1645422360839" duration="2116000" />
     </task>
     <task id="LOCAL-00001" summary="3.7 spring boot development homework">
       <created>1642324225054</created>
@@ -257,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645197215121</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="5.4 dao example without spring data jpa">
+      <created>1645423736497</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1645423736497</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,7 +299,8 @@
     <MESSAGE value="removed unnecessary autowired annotation" />
     <MESSAGE value="switched from h2 to postgres" />
     <MESSAGE value="5.3 lesson - hibernate" />
-    <option name="LAST_COMMIT_MESSAGE" value="5.3 lesson - hibernate" />
+    <MESSAGE value="5.4 dao example without spring data jpa" />
+    <option name="LAST_COMMIT_MESSAGE" value="5.4 dao example without spring data jpa" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
