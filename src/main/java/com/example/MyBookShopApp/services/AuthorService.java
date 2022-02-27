@@ -22,7 +22,7 @@ public class AuthorService {
     }
 
     public List<Author> getAuthorData() {
-        return authorRepository.getAllAuthors();
+        return authorRepository.findAll();
     }
 
     public Map<String, List<Author>> getAuthorsMap() {
