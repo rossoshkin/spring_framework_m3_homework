@@ -4,13 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56a790fc-dfce-4747-a5ed-18150b05f7fb" name="Changes" comment="5.4 spring data jpa example">
+    <list default="true" id="56a790fc-dfce-4747-a5ed-18150b05f7fb" name="Changes" comment="refactored authorService to jpa">
+      <change afterPath="$PROJECT_DIR$/src/main/java/skbx/example/struct/book/file/BookFileTypeEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/skbx/example/struct/book/file/FileDownloadEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/skbx/example/struct/book/links/Book2AuthorEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/skbx/example/struct/book/links/Book2GenreEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/skbx/example/struct/book/links/Book2UserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/skbx/example/struct/book/links/Book2UserTypeEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/skbx/example/struct/book/review/BookReviewEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/skbx/example/struct/book/review/BookReviewLikeEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/skbx/example/struct/book/review/MessageEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/skbx/example/struct/enums/ContactType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/skbx/example/struct/genre/GenreEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/skbx/example/struct/other/DocumentEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/skbx/example/struct/other/FaqEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/skbx/example/struct/payments/BalanceTransactionEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/skbx/example/struct/user/UserContactEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/skbx/example/struct/user/UserEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/data/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/data/Author.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/repositories/AuthorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/repositories/AuthorRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/repositories/AuthorRepositoryJdbcTemplate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/services/AuthorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/services/AuthorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/services/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/services/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-frontend/authors/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-frontend/authors/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +154,8 @@
       <workItem from="1645428950541" duration="917000" />
       <workItem from="1645452598758" duration="11000" />
       <workItem from="1645452719705" duration="11000" />
-      <workItem from="1645981628602" duration="349000" />
+      <workItem from="1645981628602" duration="1331000" />
+      <workItem from="1646383336337" duration="531000" />
     </task>
     <task id="LOCAL-00001" summary="3.7 spring boot development homework">
       <created>1642324225054</created>
@@ -277,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645427736065</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="refactored authorService to jpa">
+      <created>1645982005118</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1645982005118</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,7 +335,8 @@
     <MESSAGE value="5.3 lesson - hibernate" />
     <MESSAGE value="5.4 dao example without spring data jpa" />
     <MESSAGE value="5.4 spring data jpa example" />
-    <option name="LAST_COMMIT_MESSAGE" value="5.4 spring data jpa example" />
+    <MESSAGE value="refactored authorService to jpa" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactored authorService to jpa" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
