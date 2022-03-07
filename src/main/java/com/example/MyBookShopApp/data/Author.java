@@ -2,9 +2,7 @@ package com.example.MyBookShopApp.data;
 
 import javax.persistence.*;
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 
 @Entity
 @Table(name = "authors")
@@ -12,7 +10,7 @@ public class Author {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer author_id;
+    private Integer id;
 
     private String firstName;
     private String lastName;
@@ -28,12 +26,12 @@ public class Author {
         this.books = books;
     }
 
-    public Integer getAuthor_id() {
-        return author_id;
+    public Integer getId() {
+        return id;
     }
 
-    public void setAuthor_id(Integer author_id) {
-        this.author_id = author_id;
+    public void setId(Integer author_id) {
+        this.id = author_id;
     }
 
     public String getFirstName() {

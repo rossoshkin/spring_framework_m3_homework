@@ -1,10 +1,10 @@
-package skbx.example.struct.other;
+package com.example.MyBookShopApp.data.other;
 
 import javax.persistence.*;
 
 @Entity
-@Table(name = "faq")
-public class FaqEntity {
+@Table(name = "document")
+public class DocumentEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -14,10 +14,13 @@ public class FaqEntity {
     private int sortIndex;
 
     @Column(columnDefinition = "VARCHAR(255) NOT NULL")
-    private String question;
+    private String slug;
+
+    @Column(columnDefinition = "VARCHAR(255) NOT NULL")
+    private String title;
 
     @Column(columnDefinition = "TEXT NOT NULL")
-    private String answer;
+    private String text;
 
     public int getId() {
         return id;
@@ -35,19 +38,27 @@ public class FaqEntity {
         this.sortIndex = sortIndex;
     }
 
-    public String getQuestion() {
-        return question;
+    public String getSlug() {
+        return slug;
     }
 
-    public void setQuestion(String question) {
-        this.question = question;
+    public void setSlug(String slug) {
+        this.slug = slug;
     }
 
-    public String getAnswer() {
-        return answer;
+    public String getTitle() {
+        return title;
     }
 
-    public void setAnswer(String answer) {
-        this.answer = answer;
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public String getText() {
+        return text;
+    }
+
+    public void setText(String text) {
+        this.text = text;
     }
 }

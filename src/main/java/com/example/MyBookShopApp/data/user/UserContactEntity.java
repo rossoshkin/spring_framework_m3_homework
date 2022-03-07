@@ -1,6 +1,6 @@
-package skbx.example.struct.user;
+package com.example.MyBookShopApp.data.user;
 
-import skbx.example.struct.enums.ContactType;
+import com.example.MyBookShopApp.data.enums.ContactType;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;

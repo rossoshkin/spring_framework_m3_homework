@@ -5,24 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56a790fc-dfce-4747-a5ed-18150b05f7fb" name="Changes" comment="refactored authorService to jpa">
-      <change afterPath="$PROJECT_DIR$/src/main/java/skbx/example/struct/book/file/BookFileTypeEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/skbx/example/struct/book/file/FileDownloadEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/skbx/example/struct/book/links/Book2AuthorEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/skbx/example/struct/book/links/Book2GenreEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/skbx/example/struct/book/links/Book2UserEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/skbx/example/struct/book/links/Book2UserTypeEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/skbx/example/struct/book/review/BookReviewEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/skbx/example/struct/book/review/BookReviewLikeEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/skbx/example/struct/book/review/MessageEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/skbx/example/struct/enums/ContactType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/skbx/example/struct/genre/GenreEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/skbx/example/struct/other/DocumentEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/skbx/example/struct/other/FaqEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/skbx/example/struct/payments/BalanceTransactionEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/skbx/example/struct/user/UserContactEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/skbx/example/struct/user/UserEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-frontend/authors/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-frontend/authors/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/config/CommandLineRunnerImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/data/AbstractHibernateDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/data/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/data/Author.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/data/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/data/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/data/TestEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/data/TestEntityCrudRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/data/TestEntityDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/mappers/AuthorRowMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/mappers/AuthorRowMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/skbx/example/struct/book/file/BookFileTypeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/data/book/file/BookFileTypeEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/skbx/example/struct/book/file/FileDownloadEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/data/book/file/FileDownloadEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/skbx/example/struct/book/links/Book2AuthorEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/data/book/links/Book2AuthorEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/skbx/example/struct/book/links/Book2GenreEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/data/book/links/Book2GenreEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/skbx/example/struct/book/links/Book2UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/data/book/links/Book2UserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/skbx/example/struct/book/links/Book2UserTypeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/data/book/links/Book2UserTypeEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/skbx/example/struct/book/review/BookReviewEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/data/book/review/BookReviewEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/skbx/example/struct/book/review/BookReviewLikeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/data/book/review/BookReviewLikeEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/skbx/example/struct/book/review/MessageEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/data/book/review/MessageEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/skbx/example/struct/enums/ContactType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/data/enums/ContactType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/skbx/example/struct/genre/GenreEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/data/genre/GenreEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/skbx/example/struct/other/DocumentEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/data/other/DocumentEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/skbx/example/struct/other/FaqEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/data/other/FaqEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/skbx/example/struct/payments/BalanceTransactionEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/data/payments/BalanceTransactionEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/skbx/example/struct/user/UserContactEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/data/user/UserContactEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/skbx/example/struct/user/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/data/user/UserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -1,4 +1,4 @@
-package skbx.example.struct.book.links;
+package com.example.MyBookShopApp.data.book.links;
 
 import javax.persistence.*;
 

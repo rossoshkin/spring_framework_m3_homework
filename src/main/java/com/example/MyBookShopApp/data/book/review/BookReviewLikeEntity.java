@@ -1,18 +1,18 @@
-package skbx.example.struct.book.review;
+package com.example.MyBookShopApp.data.book.review;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;
 
 @Entity
-@Table(name = "book_review")
-public class BookReviewEntity {
+@Table(name = "book_review_like")
+public class BookReviewLikeEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
     @Column(columnDefinition = "INT NOT NULL")
-    private int bookId;
+    private int reviewId;
 
     @Column(columnDefinition = "INT NOT NULL")
     private int userId;
@@ -20,8 +20,8 @@ public class BookReviewEntity {
     @Column(columnDefinition = "TIMESTAMP NOT NULL")
     private LocalDateTime time;
 
-    @Column(columnDefinition = "TEXT NOT NULL")
-    private String text;
+    @Column(columnDefinition = "SMALLINT NOT NULL")
+    private short value;
 
     public int getId() {
         return id;
@@ -31,12 +31,12 @@ public class BookReviewEntity {
         this.id = id;
     }
 
-    public int getBookId() {
-        return bookId;
+    public int getReviewId() {
+        return reviewId;
     }
 
-    public void setBookId(int bookId) {
-        this.bookId = bookId;
+    public void setReviewId(int reviewId) {
+        this.reviewId = reviewId;
     }
 
     public int getUserId() {
@@ -55,11 +55,11 @@ public class BookReviewEntity {
         this.time = time;
     }
 
-    public String getText() {
-        return text;
+    public short getValue() {
+        return value;
     }
 
-    public void setText(String text) {
-        this.text = text;
+    public void setValue(short value) {
+        this.value = value;
     }
 }

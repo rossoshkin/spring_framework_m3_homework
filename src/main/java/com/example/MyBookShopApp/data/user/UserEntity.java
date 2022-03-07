@@ -1,4 +1,4 @@
-package skbx.example.struct.user;
+package com.example.MyBookShopApp.data.user;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;

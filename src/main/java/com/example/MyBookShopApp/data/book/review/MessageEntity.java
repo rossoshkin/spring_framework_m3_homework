@@ -1,4 +1,4 @@
-package skbx.example.struct.book.review;
+package com.example.MyBookShopApp.data.book.review;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;

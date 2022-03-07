@@ -12,7 +12,7 @@ public class Book implements Serializable {
     private Integer id;
 
     @ManyToOne
-    @JoinColumn(name = "author_id", referencedColumnName = "author_id")
+    @JoinColumn(name = "author_id", referencedColumnName = "id")
     private Author author;
 
     public Author getAuthor() {

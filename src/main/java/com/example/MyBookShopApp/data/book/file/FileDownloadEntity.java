@@ -1,4 +1,4 @@
-package skbx.example.struct.book.file;
+package com.example.MyBookShopApp.data.book.file;
 
 import javax.persistence.*;
 

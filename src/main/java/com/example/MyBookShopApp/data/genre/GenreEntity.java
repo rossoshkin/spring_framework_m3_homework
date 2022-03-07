@@ -1,4 +1,4 @@
-package skbx.example.struct.genre;
+package com.example.MyBookShopApp.data.genre;
 
 import javax.persistence.*;
 

@@ -1,21 +1,15 @@
-package skbx.example.struct.book.links;
+package com.example.MyBookShopApp.data.book.review;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;
 
 @Entity
-@Table(name = "book2user")
-public class Book2UserEntity {
+@Table(name = "book_review")
+public class BookReviewEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-
-    @Column(columnDefinition = "TIMESTAMP NOT NULL")
-    private LocalDateTime time;
-
-    @Column(columnDefinition = "INT NOT NULL")
-    private int typeId;
 
     @Column(columnDefinition = "INT NOT NULL")
     private int bookId;
@@ -23,28 +17,18 @@ public class Book2UserEntity {
     @Column(columnDefinition = "INT NOT NULL")
     private int userId;
 
+    @Column(columnDefinition = "TIMESTAMP NOT NULL")
+    private LocalDateTime time;
+
+    @Column(columnDefinition = "TEXT NOT NULL")
+    private String text;
+
     public int getId() {
         return id;
     }
 
     public void setId(int id) {
         this.id = id;
-    }
-
-    public LocalDateTime getTime() {
-        return time;
-    }
-
-    public void setTime(LocalDateTime time) {
-        this.time = time;
-    }
-
-    public int getTypeId() {
-        return typeId;
-    }
-
-    public void setTypeId(int typeId) {
-        this.typeId = typeId;
     }
 
     public int getBookId() {
@@ -61,5 +45,21 @@ public class Book2UserEntity {
 
     public void setUserId(int userId) {
         this.userId = userId;
+    }
+
+    public LocalDateTime getTime() {
+        return time;
+    }
+
+    public void setTime(LocalDateTime time) {
+        this.time = time;
+    }
+
+    public String getText() {
+        return text;
+    }
+
+    public void setText(String text) {
+        this.text = text;
     }
 }
