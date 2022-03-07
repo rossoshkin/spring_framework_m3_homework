@@ -69,7 +69,9 @@
                       </strong>
                       <div class="Card-description" th:text="${book.author}">Кондратенко Валерий Петрович
                       </div>
-                      <div class="Card-cost"><span class="Card-priceOld" th:text="${book.priceOld}">₽300.00</span><span class="Card-price" th:text="${book.price}">₽190.00</span>
+                      <div class="Card-cost">
+                        <span th:if="${book.discount} != 0"class="Card-priceOld" th:text="${book.price} + '$'">₽300.00</span>
+                        <span  class="Card-price" th:text="${book.price} - ${book.price}/100 * ${book.discount} + '$'">₽190.00</span>
                       </div>
                     </div>
                   </div>

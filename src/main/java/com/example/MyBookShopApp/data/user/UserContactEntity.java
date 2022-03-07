@@ -25,7 +25,7 @@ public class UserContactEntity {
     private String code;
 
     @Column(columnDefinition = "INT")
-    private int codeTrails;
+    private int codeTrials;
 
     @Column(columnDefinition = "TIMESTAMP")
     private LocalDateTime codeTime;
@@ -73,12 +73,12 @@ public class UserContactEntity {
         this.code = code;
     }
 
-    public int getCodeTrails() {
-        return codeTrails;
+    public int getCodeTrials() {
+        return codeTrials;
     }
 
-    public void setCodeTrails(int codeTrails) {
-        this.codeTrails = codeTrails;
+    public void setCodeTrials(int codeTrails) {
+        this.codeTrials = codeTrails;
     }
 
     public LocalDateTime getCodeTime() {

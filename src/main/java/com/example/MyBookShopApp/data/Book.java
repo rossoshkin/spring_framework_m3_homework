@@ -2,6 +2,7 @@ package com.example.MyBookShopApp.data;
 
 import javax.persistence.*;
 import java.io.Serializable;
+import java.util.Date;
 
 @Entity
 @Table(name = "book")
@@ -15,6 +16,78 @@ public class Book implements Serializable {
     @JoinColumn(name = "author_id", referencedColumnName = "id")
     private Author author;
 
+    @Column(columnDefinition = "DATE NOT NULL")
+    private Date pubDate;
+
+    @Column(columnDefinition = "SMALLINT NOT NULL")
+    private Integer isBestseller;
+
+    @Column(columnDefinition = "VARCHAR(255) NOT NULL")
+    private String slug;
+
+    @Column(columnDefinition = "VARCHAR(255) NOT NULL")
+    private String title;
+
+    @Column(columnDefinition = "VARCHAR(255) NOT NULL")
+    private String image;
+
+    @Column(columnDefinition = "TEXT")
+    private String description;
+
+    @Column(columnDefinition = "INT NOT NULL")
+    private String price;
+
+    @Column(columnDefinition = "SMALLINT NOT NULL DEFAULT 0")
+    private Integer discount;
+
+    public Integer getIsBestseller() {
+        return isBestseller;
+    }
+
+    public void setIsBestseller(Integer isBestseller) {
+        this.isBestseller = isBestseller;
+    }
+
+    public String getSlug() {
+        return slug;
+    }
+
+    public void setSlug(String slug) {
+        this.slug = slug;
+    }
+
+    public String getImage() {
+        return image;
+    }
+
+    public void setImage(String image) {
+        this.image = image;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public Integer getDiscount() {
+        return discount;
+    }
+
+    public void setDiscount(Integer discount) {
+        this.discount = discount;
+    }
+
+    public Date getPubDate() {
+        return pubDate;
+    }
+
+    public void setPubDate(Date pubDate) {
+        this.pubDate = pubDate;
+    }
+
     public Author getAuthor() {
         return author;
     }
@@ -22,11 +95,6 @@ public class Book implements Serializable {
     public void setAuthor(Author author) {
         this.author = author;
     }
-
-
-    private String title;
-    private String priceOld;
-    private String price;
 
     public Integer getId() {
         return id;
@@ -44,14 +112,6 @@ public class Book implements Serializable {
         this.title = title;
     }
 
-    public String getPriceOld() {
-        return priceOld;
-    }
-
-    public void setPriceOld(String priceOld) {
-        this.priceOld = priceOld;
-    }
-
     public String getPrice() {
         return price;
     }
@@ -66,7 +126,6 @@ public class Book implements Serializable {
                 "id=" + id +
                 ", author=" + author +
                 ", title='" + title + '\'' +
-                ", priceOld='" + priceOld + '\'' +
                 ", price='" + price + '\'' +
                 '}';
     }

@@ -1,4 +1,4 @@
-package com.example.MyBookShopApp.data.book.review;
+package com.example.MyBookShopApp.data.other;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;
