@@ -4,21 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56a790fc-dfce-4747-a5ed-18150b05f7fb" name="Changes" comment="books -&gt; book, authors -&gt; author">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/data/book/file/BookFileEntity.java" afterDir="false" />
+    <list default="true" id="56a790fc-dfce-4747-a5ed-18150b05f7fb" name="Changes" comment="finished with DB structure">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data1.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/changelog/db.changelog-master.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/data/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/data/Author.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/data/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/data/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/data/book/review/MessageEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/data/other/MessageEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/data/user/UserContactEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/data/user/UserContactEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/mappers/AuthorRowMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/repositories/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/repositories/BookRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/services/AuthorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/services/AuthorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBookShopApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MyBookShopApp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-frontend/authors/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-frontend/authors/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-frontend/fragments/books_pool_fragment.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-frontend/fragments/books_pool_fragment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-frontend/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +67,6 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -152,6 +143,7 @@
       <workItem from="1645452719705" duration="11000" />
       <workItem from="1645981628602" duration="1331000" />
       <workItem from="1646383336337" duration="531000" />
+      <workItem from="1647082828139" duration="2146000" />
     </task>
     <task id="LOCAL-00001" summary="3.7 spring boot development homework">
       <created>1642324225054</created>
@@ -307,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646642316034</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="finished with DB structure">
+      <created>1646647357916</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1646647357916</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,7 +347,8 @@
     <MESSAGE value="refactored authorService to jpa" />
     <MESSAGE value="moved skbx entities structure to Data package and changed author_id to simply an id" />
     <MESSAGE value="books -&gt; book, authors -&gt; author" />
-    <option name="LAST_COMMIT_MESSAGE" value="books -&gt; book, authors -&gt; author" />
+    <MESSAGE value="finished with DB structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished with DB structure" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

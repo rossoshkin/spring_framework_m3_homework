@@ -95,6 +95,9 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-orm:5.3.14" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-tx:5.3.14" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-aspects:5.3.14" level="project" />
+    <orderEntry type="library" name="Maven: org.liquibase:liquibase-core:4.5.0" level="project" />
+    <orderEntry type="library" name="Maven: javax.xml.bind:jaxb-api:2.3.1" level="project" />
+    <orderEntry type="library" name="Maven: javax.activation:javax.activation-api:1.2.0" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-jdbc:2.6.2" level="project" />
     <orderEntry type="library" name="Maven: com.zaxxer:HikariCP:4.0.3" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-jdbc:5.3.14" level="project" />
