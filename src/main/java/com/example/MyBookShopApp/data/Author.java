@@ -1,15 +1,20 @@
 package com.example.MyBookShopApp.data;
 
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
 @Entity
 @Table(name = "author")
+@ApiModel(description = "data model of author entity")
 public class Author {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @ApiModelProperty(value = "authors id is being generated automatically by db", position = 1)
     private Integer id;
 
     @Column(columnDefinition = "VARCHAR(255)")
@@ -19,6 +24,7 @@ public class Author {
     private String slug;
 
     @Column(columnDefinition = "VARCHAR(255) NOT NULL")
+    @ApiModelProperty(value = "authors name", example = "Bob Seger", position = 2)
     private String name;
 
     @Column(columnDefinition = "TEXT")
