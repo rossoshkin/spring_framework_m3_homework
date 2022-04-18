@@ -1,5 +1,6 @@
 package com.example.MyBookShopApp.data;
 
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 
@@ -31,6 +32,7 @@ public class Author {
     private String description;
 
     @OneToMany(mappedBy = "author")
+    @JsonManagedReference
     private List<Book> books = new ArrayList<>();
 
     public List<Book> getBooks() {
