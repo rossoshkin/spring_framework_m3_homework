@@ -2,12 +2,11 @@ package com.example.MyBookShopApp.services;
 
 import com.example.MyBookShopApp.data.Book;
 import com.example.MyBookShopApp.repositories.BookRepository;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
-import java.sql.ResultSet;
-import java.util.ArrayList;
 import java.util.List;
 
 
@@ -48,5 +47,10 @@ public class BookService {
 
     public List<Book> getBestsellers() {
         return bookRepository.getBestsellers();
+    }
+
+    public Page<Book> getPageOfRecommendedBooks(Integer offset, Integer limit) {
+        Pageable nextPage = PageRequest.of(offset, limit);
+        return bookRepository.findAll(nextPage);
     }
 }

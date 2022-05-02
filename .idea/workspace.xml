@@ -4,16 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56a790fc-dfce-4747-a5ed-18150b05f7fb" name="Changes" comment="6.3 rest api swagger documentation">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/controllers/BooksRestApiController.java" afterDir="false" />
+    <list default="true" id="56a790fc-dfce-4747-a5ed-18150b05f7fb" name="Changes" comment="6.4 rest api swagger documentation">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/data/RecommendedBooksPageDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/config/SpringfoxConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/config/SpringfoxConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/data/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/data/Author.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/data/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/data/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/repositories/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/repositories/BookRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/controllers/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/controllers/MainPageController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/services/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MyBookShopApp/services/BookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data1.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data1.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-frontend/assets/js/scripts.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-frontend/assets/js/scripts.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-frontend/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +77,9 @@
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.MyBookShopApp.data" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
@@ -88,6 +88,7 @@
     <option name="myCommands">
       <command value="mvn clean" />
       <command value="mvn liquibase:generateChangeLog" />
+      <command value="mvn clean package" />
     </option>
   </component>
   <component name="RunDashboard">
@@ -154,6 +155,7 @@
       <workItem from="1647082828139" duration="4144000" />
       <workItem from="1649998537095" duration="6127000" />
       <workItem from="1650301673896" duration="1506000" />
+      <workItem from="1651511917389" duration="3914000" />
     </task>
     <task id="LOCAL-00001" summary="3.7 spring boot development homework">
       <created>1642324225054</created>
@@ -373,7 +375,8 @@
     <MESSAGE value="books -&gt; book, authors -&gt; author" />
     <MESSAGE value="finished with DB structure" />
     <MESSAGE value="liquibase was added" />
-    <option name="LAST_COMMIT_MESSAGE" value="liquibase was added" />
+    <MESSAGE value="6.4 rest api swagger documentation" />
+    <option name="LAST_COMMIT_MESSAGE" value="6.4 rest api swagger documentation" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
