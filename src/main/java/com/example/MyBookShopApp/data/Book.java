@@ -1,6 +1,7 @@
 package com.example.MyBookShopApp.data;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 
@@ -20,7 +21,7 @@ public class Book implements Serializable {
 
     @ManyToOne
     @JoinColumn(name = "author_id", referencedColumnName = "id")
-    @JsonBackReference
+    @JsonProperty
     @ApiModelProperty("books author")
     private Author author;
 
